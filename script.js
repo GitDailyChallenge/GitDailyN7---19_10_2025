@@ -28,7 +28,6 @@ againBtn.addEventListener("click", () => {
   theNumber = Math.floor(Math.random() * 100) + 1;
   let = attemptsCount = 0;
   DisplayTitletheNumber.textContent = "guess the number:?";
-  DisplaytheNumber.textContent = "?";
   result.textContent = "";
   userInput.value = "";
   attenpts.textContent = `Attempts: ${attemptsCount}`;
